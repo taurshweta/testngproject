@@ -10,6 +10,7 @@ public class Checkenabled {
 	@Test(priority=1)
 	public void login() {
 		System.out.println("login method");
+		System.out.println("changes");
 			}
 	@Test(priority=2)
 	@Parameters({"browser","version"})
